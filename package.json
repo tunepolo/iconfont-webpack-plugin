@@ -1,0 +1,39 @@
+{
+  "name": "@resessh/iconfont-webpack-plugin",
+  "version": "1.0.0",
+  "description": "iconfont plugin for webpack.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resessh/iconfont-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "iconfont"
+  ],
+  "author": {
+    "name": "resessh",
+    "email": "info@resessh.net"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/resessh/iconfont-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/resessh/iconfont-webpack-plugin#readme",
+  "dependencies": {
+    "chokidar": "^2.0.4",
+    "ejs": "^2.6.1",
+    "globby": "^8.0.1",
+    "lodash.debounce": "^4.0.8",
+    "node-filter-async": "^1.0.0",
+    "svg2ttf": "^4.1.0",
+    "svgicons2svgfont": "^9.0.3",
+    "ttf2eot": "^2.0.0",
+    "ttf2woff": "^2.0.1",
+    "ttf2woff2": "^2.0.3"
+  }
+}
